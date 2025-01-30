@@ -8,7 +8,7 @@ Move all contents of a directory to its parent directory.
 
 | Operating system | Download                     |
 | ---------------- | ---------------------------- |
-| Linux (x64)      | [⬇ Download](./build/unwrap) |
+| Linux (x64)      | [⬇ Download](https://github.com/samislam/unwrap/releases/download/v1.0.0/unwrap) |
 
 ### 2. Move to /bin and grant execution permissions
 
