@@ -1,0 +1,26 @@
+{
+  "name": "unwrap",
+  "module": "./src/index.ts",
+  "version": "1.0.0",
+  "type": "module",
+  "prettier": "@samislam/prettier-config",
+  "bin": {
+    "unwrap": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "bun build src/index.ts --outdir dist --minify --target bun",
+    "start": "bun run src/index.ts",
+    "build-linux": "bun build src/index.ts --compile --outfile ./build/unwrap"
+  },
+  "devDependencies": {
+    "@samislam/prettier-config": "^1.1.1",
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "await-to-js": "^3.0.0",
+    "commander": "^13.1.0"
+  }
+}
